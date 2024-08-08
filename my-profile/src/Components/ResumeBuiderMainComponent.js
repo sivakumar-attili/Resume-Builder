@@ -58,25 +58,30 @@ function ResumeBuilderMainComponent() {
             <div className='col-4 skill-section'>
 
                 <div>
-                    <h5>{skillData.header}</h5>
-
+                    <h5 className='title-header'>{skillData.header}</h5>
+                    <br/>
                     {skillData?.skills.map((skill, index) => (<li className='badge rounded-pill skill-text' key={index}>{skill}</li>))}
                 </div>
                 <br />
+                <br />
                 <div>
-                    <h5>{softSkillData.header}</h5>
+                    <h5 className='title-header'>{softSkillData.header}</h5>
+                    <br/>
                     {softSkillData?.skills.map((skill, index) => (<li className='badge rounded-pill skill-text' key={index}>{skill}</li>))}
                 </div>
                 <br />
-                <div>
-                    <h5>{educationalDetails.title}</h5>
-                    <p>{educationalDetails.study}</p>
-                    <p>{educationalDetails.university}</p>
-                    <p>{educationalDetails.year}</p>
-                </div>
                 <br />
                 <div>
-                    <h5>{achievements?.header}</h5>
+                    <h5 className='title-header'>{educationalDetails.title}</h5>
+                  <br/>
+                    <p className='edu-data'><i>{educationalDetails.study}</i></p>
+                    <p className='edu-data'><i>{educationalDetails.university}</i></p>
+                    <p className='edu-data'><i>{educationalDetails.year}</i></p>
+                </div>
+                <br />
+                <br />
+                <div>
+                    <h5 className='title-header'>{achievements?.header}</h5>
                     {achievements?.awards.map((skill, index) => (<li className='badge rounded-pill skill-text' key={index}>{skill}</li>))}
                 </div>
 
@@ -86,21 +91,24 @@ function ResumeBuilderMainComponent() {
             </div>
             {/* experience section */}
             <div className='col-8'>
-                <h5>{experienceData?.header}</h5>
+                <h5 className='title-header'>{experienceData?.header}</h5>
                 {experienceData?.Details?.map((details, index) => (<div key={index} >
                     <div style={{ display: "flex", justifyContent: "space-between" }}>
                         <div>
-                            <h6>{details?.role}</h6>
-                            <div>{details?.company} | Hyderabad </div>
+                            <h5 className='role' >{details?.role}</h5>
+                           
                         </div>
-                        <div>{details?.year}</div>
+                        <div className='role px-1'>{details?.year}</div>
                     </div>
+                    <div className='role'>{details?.company} | Hyderabad </div>
                     <ul>
-                        {details?.responsibilities?.map((resp, key) => (<li key={key} >{resp}</li>))}
+                        {details?.responsibilities?.map((resp, key) => (<li key={key} className='responsibilities' >{resp}</li>))}
                     </ul>
+                    <p className='projects' >Projects</p>
                     <div class="d-flex flex-row bd-highlight mb-3">
-                        {details?.projects?.map((project, pkey) => (<div key={pkey} className="p-2 bd-highlight border">{project}</div>))}
 
+                        {details?.projects?.map((project, pkey) => (<div key={pkey} className=" responsibilities p-2 bd-highlight  project-border">{project}</div>))}
+                       
                     </div>
                     
                 </div>))}

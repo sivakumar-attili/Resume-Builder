@@ -8,6 +8,18 @@
 .contact-section {
   font-weight: bold;
 }
+.title-header{
+  color:#1b3956;
+  text-decoration: underline;
+
+}
+.edu-data{
+  color:#1b3956;
+
+  font-weight: bold;
+  font-size: 16px;
+  word-wrap: break-word;
+}
 
 .contact-section>div {
   padding-bottom: 5px;
@@ -16,13 +28,35 @@
 .summary-section {
   padding: 10px;
   color: #284058;
-  font-weight: 200px;
+  font-weight: 400px;
 }
 .skill-text{
-  background-color: #1b3956 !important;
+  background-color: #ffff !important;
+  color:#1b3956 !important;
+  border: 2px solid #1b3956 ;
   margin: 2px;
+  font-size: 16px !important;
+
  
 }
 .skill-section{
   border-right: 5px solid #afbecd83;
+}
+.role{
+   color: #284058;
+   font-style: italic;
+}
+.projects{
+  color: #284058;
+  font-style: italic;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.responsibilities{
+  color: #284058;
+ font-weight: 400;
+}
+.project-border{
+  border: 3px solid #2a3641 ;
+  border-radius: 2px;
 }
