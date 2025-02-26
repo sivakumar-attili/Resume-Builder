@@ -3,6 +3,7 @@ import { achievements, educationalDetails, experienceData, headerData, skillData
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import AddIcCallOutlinedIcon from '@mui/icons-material/AddIcCallOutlined';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+
 function ResumeBuilderMainComponent() {
     return (<div className='container-fluid border'>
         {/* header section */}

@@ -8,11 +8,11 @@ export const headerData = {
     mobileNum: "+91-8106260436"
 }
 export const summaryContent = {
-    data: "With more than 5 years of professional experience, I am a highly skilled React Developer/Frontend Developer. I have a proven track record of developing user interface components with React.js and effectively troubleshooting complex issues. My contributions have led to the creation of high-quality code with excellent uptime and optimized performance. I am enthusiastic about implementing robust and innovative solutions."
+    data: "Experienced ReactJS Developer with 6+ years in building dynamic, responsive web applications. Proficient in ReactJS, TypeScript, JavaScript (ES6+), HTML5, CSS3, Redux Toolkit, Jest, Bootstrap, Material UI, Ant Design, and RESTful APIs. Skilled in designing scalable, maintainable applications, optimizing performance, and integrating with backend services. Strong collaborator with cross-functional teams and a focus on delivering high-quality, user-friendly interfaces. Passionate about writing clean, reusable code and staying updated with React ecosystem trends."
 }
 export const skillData = {
     header: "Tech-Skills",
-    skills: ["HTML", "CSS", "JavaScript", "ReactJs", "TypeScript", "Redux", "Unit Testing", "Bootstrap", "Material UI", "Git"]
+    skills: ["HTML", "CSS", "JavaScript", "ReactJs", "TypeScript", "Redux", "Unit Testing", "Bootstrap", "Material UI","Ant Design","Qtest", "Git"]
 }
 export const softSkillData = {
     header: "Soft-Skills",
@@ -45,26 +45,25 @@ export const experienceData = {
             role: "System Engineer",
             year: "March 2022- Present",
             responsibilities: [
-                "Developed and maintained user interfaces using React.js.",
-                "Reviewing the code and maintaining the pipeline without errors.",
-                "involving in technical discussions.",
+                "Wrote clean, maintainable, and efficient React code to create responsive and interactive user interfaces.",
+                "Reviewed code written by junior developers, providing constructive feedback and ensuring adherence to best practices.",
+                "Engaged with stakeholders to understand requirements and deliver high-quality solutions that meet their needs.",
                 "Worked on Sonarcloud issues, coverage and dupilication",
-                "Integrated user-facing elements with server-side logic.",
-                "Saved and committed code to git on a regular basis to avoid loss and to facilitate team collaboration.",
-                "Defects with in SLA which was raised by customer are resolved on time",
-                "Implemented comprehensive automated unit tests for code, ensuring robust test coverage. I have provided code coverage of nearly 90% by covering all the statements,functions and satisfying all scenarios of the code."],
+               "Defects with in SLA which was raised by customer are resolved on time",
+                "Wrote and maintain tests using testing libraries like Jest, React Testing Library, or Enzyme to ensure the app’s functionality and stability."],
             projects: [
-                "OutFrontMedia(Currently Working)",
+                "Cisco",
+                "OutFrontMedia",
                 "Cove-DLM",
                 "Vhub Analytics",
-                "Vhub Business"
+                "Vhub Business",
             ]
         },
         {
             company: "Digitivy Software and Services India Pvt Ltd",
             role: "Senior Software Engineer",
             year: "Feb 2020- Feb 2022",
-            responsibilities: ["Developed and maintained user interfaces using React.js.",
+            responsibilities: ["Developed reusable and modular components to maintain scalability and consistency across the application.",
                 "Optimized the components for maximum performance across a vast array of web-capable devices and browsers",
                 "Collaborated with other team members and stakeholders.",
                 "Stayed up-to-date with emerging technologies and frameworks.",

@@ -1,8 +1,8 @@
 .header-section {
-  background-color: #c6c7c81c;
-  padding: 20px 10px;
-  color: #284058;
-  border-bottom: 10px solid #284058;
+  background-color: #284058;
+  padding: 20px 10px; 
+  color: #fff;
+  border-bottom: 10px solid #fff;
 }
 
 .contact-section {
@@ -28,7 +28,8 @@
 .summary-section {
   padding: 10px;
   color: #284058;
-  font-weight: 400px;
+  font-weight: bold !important;
+  background-color: #adb5bd33;
 }
 .skill-text{
   background-color: #ffff !important;
