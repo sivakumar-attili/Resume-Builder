@@ -9,11 +9,11 @@ function ResumeBuilderMainComponent() {
         {/* header section */}
         <div className='header-section'>
             <div className='row'>
-                <div className='col-8'>
+                <div className='col-sm-8'>
                     <h1>{headerData.name}</h1>
                     <h5>{headerData.title}</h5>
                 </div>
-                <div className='col-4 contact-section'>
+                <div className='col-sm-4 contact-section'>
                     <div>
                         <EmailOutlinedIcon />
                         <span> {headerData.email}</span>
@@ -56,8 +56,8 @@ function ResumeBuilderMainComponent() {
         {/* skills and experice section */}
         <div className='row' >
             {/* skill section */}
-            <div className='col-4 skill-section'>
-
+            <div className='col-sm-4 skill-section'>
+            <br/>
                 <div>
                     <h5 className='title-header'>{skillData.header}</h5>
                     <br/>
@@ -91,7 +91,8 @@ function ResumeBuilderMainComponent() {
 
             </div>
             {/* experience section */}
-            <div className='col-8'>
+            <div className='col-sm-8'>
+                <br/>
                 <h5 className='title-header'>{experienceData?.header}</h5>
                 {experienceData?.Details?.map((details, index) => (<div key={index} >
                     <div style={{ display: "flex", justifyContent: "space-between" }}>
