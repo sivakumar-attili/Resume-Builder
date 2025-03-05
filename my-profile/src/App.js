@@ -4,6 +4,7 @@ import { useRef } from 'react';
 
 import ResumeBuilderMainComponent from './Components/ResumeBuiderMainComponent';
 import generatePDF from 'react-to-pdf';
+import Profile from './Components/Profile/Profile';
 const options = {
   orientation: 'portrait',
   unit: 'mm',
@@ -13,10 +14,13 @@ const options = {
 
 function App() {
   const targetRef = useRef();
-  return (
+  return (<div>
+      {/* <ResumeBuilderMainComponent  /> */}
+      <Profile/>
+  </div>
     
       
-     <ResumeBuilderMainComponent  />
+   
     
   );
 }
