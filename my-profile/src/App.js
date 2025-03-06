@@ -5,6 +5,7 @@ import { useRef } from 'react';
 import ResumeBuilderMainComponent from './Components/ResumeBuiderMainComponent';
 import generatePDF from 'react-to-pdf';
 import Profile from './Components/Profile/Profile';
+import ExpCarousal from './Components/Profile/ExpCarousal';
 const options = {
   orientation: 'portrait',
   unit: 'mm',
@@ -17,6 +18,7 @@ function App() {
   return (<div>
       {/* <ResumeBuilderMainComponent  /> */}
       <Profile/>
+     
   </div>
     
       

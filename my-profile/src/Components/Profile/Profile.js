@@ -14,11 +14,18 @@ export default function Profile() {
                     <div className='content-center' >
                         <div>
                             <h1>Sivakumar Attili</h1>
-                            <h5><i>Experienced ReactJs Developer</i></h5>
+                            <h5><i>Senior ReactJS Technologist</i></h5>
+<br/>
+                            <div>
+                               <b><i>Email : siva.attili123@gmail.com</i></b> 
+                               <br/>
+                               <b><i>Mobile : +91-8106260436</i></b> 
+                            </div>
+
                         </div>
 
                     </div>
-                   
+
                 </div>
 
                 <div className='col-md-8'>

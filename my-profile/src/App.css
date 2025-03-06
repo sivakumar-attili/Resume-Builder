@@ -4,7 +4,9 @@
   color: #fff;
   border-bottom: 10px solid #fff;
 }
-
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .contact-section {
   font-weight: bold;
 }
@@ -81,12 +83,13 @@
 
 .profile-content {
   position: absolute;
-  top: 15%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  top: 10%;
   padding: 10px;
   width: 100%;
   color: #f1f1f1;
-  
- 
+  background-color: #00000029;
+
 }
 
 .profile-photo {
@@ -100,4 +103,15 @@
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.profile-summary {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding:10px;
+}
+.carousal-content{
+  text-align: left !important;
 }
