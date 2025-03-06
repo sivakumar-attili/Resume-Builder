@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Resume-Builder/static/css/main.e3055ecf.css",
-    "main.js": "/Resume-Builder/static/js/main.da937ae5.js",
+    "main.css": "/Resume-Builder/static/css/main.681a19a1.css",
+    "main.js": "/Resume-Builder/static/js/main.b5af7ca0.js",
     "static/js/213.2f5e1664.chunk.js": "/Resume-Builder/static/js/213.2f5e1664.chunk.js",
-    "static/js/732.a26226af.chunk.js": "/Resume-Builder/static/js/732.a26226af.chunk.js",
+    "static/js/732.1487c9e4.chunk.js": "/Resume-Builder/static/js/732.1487c9e4.chunk.js",
     "static/js/453.a51f05fa.chunk.js": "/Resume-Builder/static/js/453.a51f05fa.chunk.js",
     "static/media/socialmedia.mp4": "/Resume-Builder/static/media/socialmedia.119515df11f87ace2837.mp4",
     "static/media/paperflying.mp4": "/Resume-Builder/static/media/paperflying.9d01c8b0d91cec00a23e.mp4",
     "static/media/passportsize.jpg": "/Resume-Builder/static/media/passportsize.cad5cfa2f5587bcbfce8.jpg",
     "index.html": "/Resume-Builder/index.html",
-    "main.e3055ecf.css.map": "/Resume-Builder/static/css/main.e3055ecf.css.map",
-    "main.da937ae5.js.map": "/Resume-Builder/static/js/main.da937ae5.js.map",
+    "main.681a19a1.css.map": "/Resume-Builder/static/css/main.681a19a1.css.map",
+    "main.b5af7ca0.js.map": "/Resume-Builder/static/js/main.b5af7ca0.js.map",
     "213.2f5e1664.chunk.js.map": "/Resume-Builder/static/js/213.2f5e1664.chunk.js.map",
-    "732.a26226af.chunk.js.map": "/Resume-Builder/static/js/732.a26226af.chunk.js.map",
+    "732.1487c9e4.chunk.js.map": "/Resume-Builder/static/js/732.1487c9e4.chunk.js.map",
     "453.a51f05fa.chunk.js.map": "/Resume-Builder/static/js/453.a51f05fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3055ecf.css",
-    "static/js/main.da937ae5.js"
+    "static/css/main.681a19a1.css",
+    "static/js/main.b5af7ca0.js"
   ]
 }
