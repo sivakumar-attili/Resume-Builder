@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Resume-Builder/static/css/main.681a19a1.css",
-    "main.js": "/Resume-Builder/static/js/main.e1c18809.js",
+    "main.css": "/Resume-Builder/static/css/main.e2a42b52.css",
+    "main.js": "/Resume-Builder/static/js/main.cf40e7ea.js",
     "static/js/213.2f5e1664.chunk.js": "/Resume-Builder/static/js/213.2f5e1664.chunk.js",
     "static/js/732.1487c9e4.chunk.js": "/Resume-Builder/static/js/732.1487c9e4.chunk.js",
     "static/js/453.a51f05fa.chunk.js": "/Resume-Builder/static/js/453.a51f05fa.chunk.js",
@@ -9,14 +9,14 @@
     "static/media/paperflying.mp4": "/Resume-Builder/static/media/paperflying.9d01c8b0d91cec00a23e.mp4",
     "static/media/passportsize.jpg": "/Resume-Builder/static/media/passportsize.cad5cfa2f5587bcbfce8.jpg",
     "index.html": "/Resume-Builder/index.html",
-    "main.681a19a1.css.map": "/Resume-Builder/static/css/main.681a19a1.css.map",
-    "main.e1c18809.js.map": "/Resume-Builder/static/js/main.e1c18809.js.map",
+    "main.e2a42b52.css.map": "/Resume-Builder/static/css/main.e2a42b52.css.map",
+    "main.cf40e7ea.js.map": "/Resume-Builder/static/js/main.cf40e7ea.js.map",
     "213.2f5e1664.chunk.js.map": "/Resume-Builder/static/js/213.2f5e1664.chunk.js.map",
     "732.1487c9e4.chunk.js.map": "/Resume-Builder/static/js/732.1487c9e4.chunk.js.map",
     "453.a51f05fa.chunk.js.map": "/Resume-Builder/static/js/453.a51f05fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.681a19a1.css",
-    "static/js/main.e1c18809.js"
+    "static/css/main.e2a42b52.css",
+    "static/js/main.cf40e7ea.js"
   ]
 }
