@@ -9,17 +9,17 @@ export default function Profile() {
         <video className='profile-video' src={Video2} loop autoPlay muted />
         <div className='profile-content' >
             <div className='row' >
-                <div className='col-md-4 my-auto' >
+                <div className='col-md-4 my-auto ' >
                     <div className='content-center' > <img src={Photo} className='profile-photo' /></div>
                     <div className='content-center' >
                         <div>
                             <h1>Sivakumar Attili</h1>
                             <h5><i>Senior ReactJS Technologist</i></h5>
-<br/>
+
                             <div>
-                               <b><i>Email : siva.attili123@gmail.com</i></b> 
-                               <br/>
-                               <b><i>Mobile : +91-8106260436</i></b> 
+                                <b><i>Email : siva.attili123@gmail.com</i></b>
+                                <br />
+                                <b><i>Mobile : +91-8106260436</i></b>
                             </div>
 
                         </div>
@@ -28,7 +28,7 @@ export default function Profile() {
 
                 </div>
 
-                <div className='col-md-8'>
+                <div className='col-md-8 mt-4'>
                     <TabSection />
                 </div>
 

@@ -6,7 +6,7 @@ export default function TabSection() {
     return (
         <div>
             <nav >
-                <div className="nav nav-tabs" id="nav-tab" role="tablist">
+                <div className="nav nav-tabs tab-header" id="nav-tab" role="tablist">
                     <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">About</button>
                     <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Experience</button>
                     <button className="nav-link" id="nav-awards-tab" data-bs-toggle="tab" data-bs-target="#nav-awards" type="button" role="tab" aria-controls="nav-awards" aria-selected="false">Awards</button>
