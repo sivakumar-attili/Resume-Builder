@@ -12,7 +12,7 @@ export const summaryContent = {
 }
 export const skillData = {
     header: "Tech-Skills",
-    skills: ["HTML", "CSS", "JavaScript", "ReactJs", "TypeScript", "Redux", "Unit Testing", "Bootstrap", "Material UI","Ant Design","Qtest", "Git"]
+    skills: ["HTML", "CSS", "JavaScript", "ReactJs", "TypeScript", "Redux", "Unit Testing", "Bootstrap", "Material UI", "Ant Design", "Qtest", "Git"]
 }
 export const softSkillData = {
     header: "Soft-Skills",
@@ -26,13 +26,12 @@ export const educationalDetails = {
 }
 export const achievements = {
     header: "Achievements",
-    awards: ["On The Spot Award(2)",
+    awards: [
+        "Service & Commitment Award",
+        "On The Spot Award(2)",
         "Xcelerate Warrior Award",
-
         " Quaterly Spot Award",
-
         " Most UI Fans Award",
-
         "Best Team Award(2)",
         "Technical Excellence Award"]
 }
@@ -49,7 +48,7 @@ export const experienceData = {
                 "Reviewed code written by junior developers, providing constructive feedback and ensuring adherence to best practices.",
                 "Engaged with stakeholders to understand requirements and deliver high-quality solutions that meet their needs.",
                 "Worked on Sonarcloud issues, coverage and dupilication",
-               "Defects with in SLA which was raised by customer are resolved on time",
+                "Defects with in SLA which was raised by customer are resolved on time",
                 "Wrote and maintain tests using testing libraries like Jest, React Testing Library, or Enzyme to ensure the app’s functionality and stability."],
             projects: [
                 "Cisco",

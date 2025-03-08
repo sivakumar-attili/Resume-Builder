@@ -4,9 +4,11 @@
   color: #fff;
   border-bottom: 10px solid #fff;
 }
-*{
+
+* {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .contact-section {
   font-weight: bold;
 }
@@ -110,8 +112,49 @@
   font-weight: 400;
   font-style: italic;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding:10px;
+  padding: 10px;
 }
-.carousal-content{
+
+.carousal-content {
   text-align: left !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Achievements {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+}
+
+.award-item {
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  background-color: rgba(216, 64, 224, 0.63);
+  animation-name: awarditem;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes awarditem {
+  from {
+    background-color: rgba(216, 64, 224, 0.63);
+  }
+
+  to {
+    background-color: rgba(19, 17, 18, 0.104);
+  }
+}
+
+.skill-item {
+
+  padding: 10px;
+  border-radius: 10px;
+  width: 50% !important;
+  background-color: rgba(216, 64, 224, 0.63);
+  animation-name: awarditem;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }

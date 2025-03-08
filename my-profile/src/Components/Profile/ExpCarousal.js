@@ -3,9 +3,9 @@ import { Carousel } from 'react-responsive-carousel';
 import { experienceData } from "../consts"
 export default function ExpCarousal() {
     return (<div >
-        <Carousel >
+        <Carousel className="m-2" >
             {experienceData.Details.map((exp, index) => (<div key={index} className="carousal-content p-2">
-                <h1 >Company : {exp.company}</h1>
+                <h2 >Company : {exp.company}</h2>
                 <i><b>Role : {exp.role}</b></i>
                 <p>Year : {exp.year}</p>
                 <br/>
